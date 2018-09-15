@@ -1,0 +1,2424 @@
+[26/May/2018 16:28:51] "GET /yqdata/dashboard HTTP/1.1" 200 98149
+[26/May/2018 16:29:16] "GET /yqdata/dashboard HTTP/1.1" 200 98149
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 26, 2018 - 16:28:39
+Django version 1.11.6, using settings 'yqapi.settings'
+Starting development server at http://0.0.0.0:8200/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 26, 2018 - 16:56:43
+Django version 1.11.6, using settings 'yqapi.settings'
+Starting development server at http://0.0.0.0:8200/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x7f85694952a8>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/var/www/yqapi/yqapi/urls.py", line 19, in <module>
+    from websocketdata import views_socket
+  File "/var/www/yqapi/websocketdata/views_socket.py", line 30, in <module>
+    from serializers import PostSerializer
+ImportError: No module named serializers
+Unhandled exception in thread started by <function wrapper at 0x7f03333a52a8>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/var/www/yqapi/yqapi/urls.py", line 19, in <module>
+    from websocketdata import views_socket
+  File "/var/www/yqapi/websocketdata/views_socket.py", line 30, in <module>
+    from serializers import PostSerializer
+ImportError: No module named serializers
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 26, 2018 - 17:02:49
+Django version 1.11.6, using settings 'yqapi.settings'
+Starting development server at http://0.0.0.0:8200/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x7fed54b702a8>
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 236, in wrapper
+    filename = traceback.extract_tb(tb)[-1][0]
+TypeError: 'NoneType' object is not callable
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 26, 2018 - 17:06:14
+Django version 1.11.6, using settings 'yqapi.settings'
+Starting development server at http://0.0.0.0:8200/
+Quit the server with CONTROL-C.
+[27/May/2018 10:15:39] "GET /websocketdata/pull_post HTTP/1.1" 200 65
+Not Found: /favicon.ico
+[27/May/2018 10:15:40] "GET /favicon.ico HTTP/1.1" 404 9124
+[27/May/2018 10:17:08] "GET /websocketdata/pull_post HTTP/1.1" 200 65
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 26, 2018 - 17:06:25
+Django version 1.11.6, using settings 'yqapi.settings'
+Starting development server at http://0.0.0.0:8200/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 27, 2018 - 12:09:39
+Django version 1.11.6, using settings 'yqapi.settings'
+Starting development server at http://0.0.0.0:8200/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 27, 2018 - 13:59:16
+Django version 1.11.6, using settings 'yqapi.settings'
+Starting development server at http://0.0.0.0:8200/
+Quit the server with CONTROL-C.
+[27/May/2018 20:21:20] "GET /yqdata/dashboard HTTP/1.1" 200 98464
+Not Found: /favicon.ico
+[27/May/2018 20:21:21] "GET /favicon.ico HTTP/1.1" 404 9124
+[28/May/2018 13:37:49] "GET /websocketdata/pull_post HTTP/1.1" 200 65
+[28/May/2018 13:38:39] "GET /websocketdata/pull_post HTTP/1.1" 200 65
+[29/May/2018 08:37:33] "GET /yqdata/dashboard HTTP/1.1" 200 48702
+Not Found: /favicon.ico
+[29/May/2018 08:37:34] "GET /favicon.ico HTTP/1.1" 404 9124
+[29/May/2018 09:21:21] "GET /yqdata/dashboard HTTP/1.1" 200 48702
+Not Found: /favicon.ico
+[29/May/2018 09:21:22] "GET /favicon.ico HTTP/1.1" 404 9124
+[29/May/2018 09:22:51] "GET /yqdata/dashboard HTTP/1.1" 200 48702
+python: can't open file 'runserver': [Errno 2] No such file or directory
+[29/May/2018 14:24:51] "GET /websocketdata/pull_post HTTP/1.1" 200 65
+[29/May/2018 17:09:15] "GET /websocketdata/pull_post HTTP/1.1" 200 65
+[30/May/2018 10:27:08] "GET /yqdata/dashboard HTTP/1.1" 200 54735
+[30/May/2018 22:26:50] "GET /yqdata/dashboard HTTP/1.1" 200 54744
+Traceback (most recent call last):
+  File "/var/www/yqapi/websocketdata/views_socket.py", line 96, in PullPost
+    for each in pull_posts2:
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/queryset.py", line 97, in _iter_results
+    self._populate_cache()
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/queryset.py", line 116, in _populate_cache
+    self._result_cache.append(self.next())
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/base.py", line 1411, in next
+    _auto_dereference=self._auto_dereference, only_fields=self.only_fields)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/base/document.py", line 719, in _from_son
+    obj = cls(__auto_convert=False, _created=created, __only_fields=only_fields, **data)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/base/document.py", line 77, in __init__
+    raise FieldDoesNotExist(msg)
+FieldDoesNotExist: The fields "set(['provinces_id_list'])" do not exist on the document "Post"
+Internal Server Error: /websocketdata/pull_post
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/var/www/yqapi/websocketdata/views_socket.py", line 115, in PullPost
+    traceback.exc_print()
+AttributeError: 'module' object has no attribute 'exc_print'
+[31/May/2018 10:58:29] "GET /websocketdata/pull_post HTTP/1.1" 500 84847
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 212, in write
+    self.send_headers()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 270, in send_headers
+    self.send_preamble()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 191, in send_preamble
+    self._write('HTTP/%s %s\r\n' % (self.http_version,self.status))
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 391, in _write
+    self.stdout.write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 9] Bad file descriptor
+[31/May/2018 10:58:29] "GET /websocketdata/pull_post HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 9] Bad file descriptor
+Traceback (most recent call last):
+  File "/var/www/yqapi/websocketdata/views_socket.py", line 96, in PullPost
+    for each in pull_posts2:
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/queryset.py", line 97, in _iter_results
+    self._populate_cache()
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/queryset.py", line 116, in _populate_cache
+    self._result_cache.append(self.next())
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/base.py", line 1411, in next
+    _auto_dereference=self._auto_dereference, only_fields=self.only_fields)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/base/document.py", line 719, in _from_son
+    obj = cls(__auto_convert=False, _created=created, __only_fields=only_fields, **data)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/base/document.py", line 77, in __init__
+    raise FieldDoesNotExist(msg)
+FieldDoesNotExist: The fields "set(['provinces_id_list'])" do not exist on the document "Post"
+Internal Server Error: /websocketdata/pull_post
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/var/www/yqapi/websocketdata/views_socket.py", line 115, in PullPost
+    traceback.exc_print()
+AttributeError: 'module' object has no attribute 'exc_print'
+[31/May/2018 10:58:29] "GET /websocketdata/pull_post HTTP/1.1" 500 84855
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 212, in write
+    self.send_headers()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 270, in send_headers
+    self.send_preamble()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 191, in send_preamble
+    self._write('HTTP/%s %s\r\n' % (self.http_version,self.status))
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 391, in _write
+    self.stdout.write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 9] Bad file descriptor
+[31/May/2018 10:58:29] "GET /websocketdata/pull_post HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 9] Bad file descriptor
+Traceback (most recent call last):
+  File "/var/www/yqapi/websocketdata/views_socket.py", line 96, in PullPost
+    for each in pull_posts2:
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/queryset.py", line 97, in _iter_results
+    self._populate_cache()
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/queryset.py", line 116, in _populate_cache
+    self._result_cache.append(self.next())
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/base.py", line 1411, in next
+    _auto_dereference=self._auto_dereference, only_fields=self.only_fields)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/base/document.py", line 719, in _from_son
+    obj = cls(__auto_convert=False, _created=created, __only_fields=only_fields, **data)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/base/document.py", line 77, in __init__
+    raise FieldDoesNotExist(msg)
+FieldDoesNotExist: The fields "set(['provinces_id_list'])" do not exist on the document "Post"
+Internal Server Error: /websocketdata/pull_post
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/var/www/yqapi/websocketdata/views_socket.py", line 115, in PullPost
+    traceback.exc_print()
+AttributeError: 'module' object has no attribute 'exc_print'
+[31/May/2018 10:58:29] "GET /websocketdata/pull_post HTTP/1.1" 500 84855
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 212, in write
+    self.send_headers()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 270, in send_headers
+    self.send_preamble()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 191, in send_preamble
+    self._write('HTTP/%s %s\r\n' % (self.http_version,self.status))
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 391, in _write
+    self.stdout.write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 9] Bad file descriptor
+[31/May/2018 10:58:29] "GET /websocketdata/pull_post HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 9] Bad file descriptor
+Traceback (most recent call last):
+  File "/var/www/yqapi/websocketdata/views_socket.py", line 96, in PullPost
+    for each in pull_posts2:
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/queryset.py", line 97, in _iter_results
+    self._populate_cache()
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/queryset.py", line 116, in _populate_cache
+    self._result_cache.append(self.next())
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/base.py", line 1411, in next
+    _auto_dereference=self._auto_dereference, only_fields=self.only_fields)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/base/document.py", line 719, in _from_son
+    obj = cls(__auto_convert=False, _created=created, __only_fields=only_fields, **data)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/base/document.py", line 77, in __init__
+    raise FieldDoesNotExist(msg)
+FieldDoesNotExist: The fields "set(['provinces_id_list'])" do not exist on the document "Post"
+Internal Server Error: /websocketdata/pull_post
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/var/www/yqapi/websocketdata/views_socket.py", line 115, in PullPost
+    traceback.exc_print()
+AttributeError: 'module' object has no attribute 'exc_print'
+[31/May/2018 10:58:30] "GET /websocketdata/pull_post HTTP/1.1" 500 84847
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 212, in write
+    self.send_headers()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 270, in send_headers
+    self.send_preamble()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 191, in send_preamble
+    self._write('HTTP/%s %s\r\n' % (self.http_version,self.status))
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 391, in _write
+    self.stdout.write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 9] Bad file descriptor
+[31/May/2018 10:58:30] "GET /websocketdata/pull_post HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 9] Bad file descriptor
+Traceback (most recent call last):
+  File "/var/www/yqapi/websocketdata/views_socket.py", line 96, in PullPost
+    for each in pull_posts2:
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/queryset.py", line 97, in _iter_results
+    self._populate_cache()
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/queryset.py", line 116, in _populate_cache
+    self._result_cache.append(self.next())
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/base.py", line 1411, in next
+    _auto_dereference=self._auto_dereference, only_fields=self.only_fields)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/base/document.py", line 719, in _from_son
+    obj = cls(__auto_convert=False, _created=created, __only_fields=only_fields, **data)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/base/document.py", line 77, in __init__
+    raise FieldDoesNotExist(msg)
+FieldDoesNotExist: The fields "set(['provinces_id_list'])" do not exist on the document "Post"
+Internal Server Error: /websocketdata/pull_post
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/var/www/yqapi/websocketdata/views_socket.py", line 115, in PullPost
+    traceback.exc_print()
+AttributeError: 'module' object has no attribute 'exc_print'
+[31/May/2018 10:58:30] "GET /websocketdata/pull_post HTTP/1.1" 500 84847
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 212, in write
+    self.send_headers()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 270, in send_headers
+    self.send_preamble()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 191, in send_preamble
+    self._write('HTTP/%s %s\r\n' % (self.http_version,self.status))
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 391, in _write
+    self.stdout.write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 9] Bad file descriptor
+[31/May/2018 10:58:30] "GET /websocketdata/pull_post HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 9] Bad file descriptor
+Traceback (most recent call last):
+  File "/var/www/yqapi/websocketdata/views_socket.py", line 96, in PullPost
+    for each in pull_posts2:
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/queryset.py", line 97, in _iter_results
+    self._populate_cache()
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/queryset.py", line 116, in _populate_cache
+    self._result_cache.append(self.next())
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/base.py", line 1411, in next
+    _auto_dereference=self._auto_dereference, only_fields=self.only_fields)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/base/document.py", line 719, in _from_son
+    obj = cls(__auto_convert=False, _created=created, __only_fields=only_fields, **data)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/base/document.py", line 77, in __init__
+    raise FieldDoesNotExist(msg)
+FieldDoesNotExist: The fields "set(['provinces_id_list'])" do not exist on the document "Post"
+Internal Server Error: /websocketdata/pull_post
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/var/www/yqapi/websocketdata/views_socket.py", line 115, in PullPost
+    traceback.exc_print()
+AttributeError: 'module' object has no attribute 'exc_print'
+[31/May/2018 10:58:31] "GET /websocketdata/pull_post HTTP/1.1" 500 84847
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 212, in write
+    self.send_headers()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 270, in send_headers
+    self.send_preamble()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 191, in send_preamble
+    self._write('HTTP/%s %s\r\n' % (self.http_version,self.status))
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 391, in _write
+    self.stdout.write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 9] Bad file descriptor
+[31/May/2018 10:58:31] "GET /websocketdata/pull_post HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 9] Bad file descriptor
+Traceback (most recent call last):
+  File "/var/www/yqapi/websocketdata/views_socket.py", line 96, in PullPost
+    for each in pull_posts2:
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/queryset.py", line 97, in _iter_results
+    self._populate_cache()
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/queryset.py", line 116, in _populate_cache
+    self._result_cache.append(self.next())
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/base.py", line 1411, in next
+    _auto_dereference=self._auto_dereference, only_fields=self.only_fields)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/base/document.py", line 719, in _from_son
+    obj = cls(__auto_convert=False, _created=created, __only_fields=only_fields, **data)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/base/document.py", line 77, in __init__
+    raise FieldDoesNotExist(msg)
+FieldDoesNotExist: The fields "set(['provinces_id_list'])" do not exist on the document "Post"
+Internal Server Error: /websocketdata/pull_post
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/var/www/yqapi/websocketdata/views_socket.py", line 115, in PullPost
+    traceback.exc_print()
+AttributeError: 'module' object has no attribute 'exc_print'
+[31/May/2018 10:58:31] "GET /websocketdata/pull_post HTTP/1.1" 500 84850
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 212, in write
+    self.send_headers()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 270, in send_headers
+    self.send_preamble()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 191, in send_preamble
+    self._write('HTTP/%s %s\r\n' % (self.http_version,self.status))
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 391, in _write
+    self.stdout.write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 9] Bad file descriptor
+[31/May/2018 10:58:31] "GET /websocketdata/pull_post HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 9] Bad file descriptor
+Traceback (most recent call last):
+  File "/var/www/yqapi/websocketdata/views_socket.py", line 96, in PullPost
+    for each in pull_posts2:
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/queryset.py", line 97, in _iter_results
+    self._populate_cache()
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/queryset.py", line 116, in _populate_cache
+    self._result_cache.append(self.next())
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/base.py", line 1411, in next
+    _auto_dereference=self._auto_dereference, only_fields=self.only_fields)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/base/document.py", line 719, in _from_son
+    obj = cls(__auto_convert=False, _created=created, __only_fields=only_fields, **data)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/base/document.py", line 77, in __init__
+    raise FieldDoesNotExist(msg)
+FieldDoesNotExist: The fields "set(['provinces_id_list'])" do not exist on the document "Post"
+Internal Server Error: /websocketdata/pull_post
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/var/www/yqapi/websocketdata/views_socket.py", line 115, in PullPost
+    traceback.exc_print()
+AttributeError: 'module' object has no attribute 'exc_print'
+[31/May/2018 10:58:31] "GET /websocketdata/pull_post HTTP/1.1" 500 84847
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 212, in write
+    self.send_headers()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 270, in send_headers
+    self.send_preamble()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 191, in send_preamble
+    self._write('HTTP/%s %s\r\n' % (self.http_version,self.status))
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 391, in _write
+    self.stdout.write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 9] Bad file descriptor
+[31/May/2018 10:58:31] "GET /websocketdata/pull_post HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 9] Bad file descriptor
+Traceback (most recent call last):
+  File "/var/www/yqapi/websocketdata/views_socket.py", line 96, in PullPost
+    for each in pull_posts2:
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/queryset.py", line 97, in _iter_results
+    self._populate_cache()
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/queryset.py", line 116, in _populate_cache
+    self._result_cache.append(self.next())
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/base.py", line 1411, in next
+    _auto_dereference=self._auto_dereference, only_fields=self.only_fields)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/base/document.py", line 719, in _from_son
+    obj = cls(__auto_convert=False, _created=created, __only_fields=only_fields, **data)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/base/document.py", line 77, in __init__
+    raise FieldDoesNotExist(msg)
+FieldDoesNotExist: The fields "set(['provinces_id_list'])" do not exist on the document "Post"
+Internal Server Error: /websocketdata/pull_post
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/var/www/yqapi/websocketdata/views_socket.py", line 115, in PullPost
+    traceback.exc_print()
+AttributeError: 'module' object has no attribute 'exc_print'
+Traceback (most recent call last):
+  File "/var/www/yqapi/websocketdata/views_socket.py", line 96, in PullPost
+    for each in pull_posts2:
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/queryset.py", line 97, in _iter_results
+    self._populate_cache()
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/queryset.py", line 116, in _populate_cache
+    self._result_cache.append(self.next())
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/base.py", line 1411, in next
+    _auto_dereference=self._auto_dereference, only_fields=self.only_fields)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/base/document.py", line 719, in _from_son
+    obj = cls(__auto_convert=False, _created=created, __only_fields=only_fields, **data)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/base/document.py", line 77, in __init__
+    raise FieldDoesNotExist(msg)
+FieldDoesNotExist: The fields "set(['provinces_id_list'])" do not exist on the document "Post"
+Internal Server Error: /websocketdata/pull_post
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/var/www/yqapi/websocketdata/views_socket.py", line 115, in PullPost
+    traceback.exc_print()
+AttributeError: 'module' object has no attribute 'exc_print'
+[31/May/2018 10:58:32] "GET /websocketdata/pull_post HTTP/1.1" 500 84847
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 212, in write
+    self.send_headers()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 270, in send_headers
+    self.send_preamble()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 191, in send_preamble
+    self._write('HTTP/%s %s\r\n' % (self.http_version,self.status))
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 391, in _write
+    self.stdout.write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 9] Bad file descriptor
+[31/May/2018 10:58:32] "GET /websocketdata/pull_post HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 9] Bad file descriptor
+[31/May/2018 10:58:32] "GET /websocketdata/pull_post HTTP/1.1" 500 84847
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 212, in write
+    self.send_headers()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 270, in send_headers
+    self.send_preamble()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 191, in send_preamble
+    self._write('HTTP/%s %s\r\n' % (self.http_version,self.status))
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 391, in _write
+    self.stdout.write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 9] Bad file descriptor
+[31/May/2018 10:58:32] "GET /websocketdata/pull_post HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 9] Bad file descriptor
+Traceback (most recent call last):
+  File "/var/www/yqapi/websocketdata/views_socket.py", line 96, in PullPost
+    for each in pull_posts2:
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/queryset.py", line 97, in _iter_results
+    self._populate_cache()
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/queryset.py", line 116, in _populate_cache
+    self._result_cache.append(self.next())
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/base.py", line 1411, in next
+    _auto_dereference=self._auto_dereference, only_fields=self.only_fields)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/base/document.py", line 719, in _from_son
+    obj = cls(__auto_convert=False, _created=created, __only_fields=only_fields, **data)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/base/document.py", line 77, in __init__
+    raise FieldDoesNotExist(msg)
+FieldDoesNotExist: The fields "set(['provinces_id_list'])" do not exist on the document "Post"
+Internal Server Error: /websocketdata/pull_post
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/var/www/yqapi/websocketdata/views_socket.py", line 115, in PullPost
+    traceback.exc_print()
+AttributeError: 'module' object has no attribute 'exc_print'
+[31/May/2018 10:58:32] "GET /websocketdata/pull_post HTTP/1.1" 500 84847
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 212, in write
+    self.send_headers()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 270, in send_headers
+    self.send_preamble()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 191, in send_preamble
+    self._write('HTTP/%s %s\r\n' % (self.http_version,self.status))
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 391, in _write
+    self.stdout.write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 9] Bad file descriptor
+[31/May/2018 10:58:32] "GET /websocketdata/pull_post HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 9] Bad file descriptor
+Traceback (most recent call last):
+  File "/var/www/yqapi/websocketdata/views_socket.py", line 96, in PullPost
+    for each in pull_posts2:
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/queryset.py", line 97, in _iter_results
+    self._populate_cache()
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/queryset.py", line 116, in _populate_cache
+    self._result_cache.append(self.next())
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/base.py", line 1411, in next
+    _auto_dereference=self._auto_dereference, only_fields=self.only_fields)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/base/document.py", line 719, in _from_son
+    obj = cls(__auto_convert=False, _created=created, __only_fields=only_fields, **data)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/base/document.py", line 77, in __init__
+    raise FieldDoesNotExist(msg)
+FieldDoesNotExist: The fields "set(['provinces_id_list'])" do not exist on the document "Post"
+Internal Server Error: /websocketdata/pull_post
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/var/www/yqapi/websocketdata/views_socket.py", line 115, in PullPost
+    traceback.exc_print()
+AttributeError: 'module' object has no attribute 'exc_print'
+[31/May/2018 10:58:33] "GET /websocketdata/pull_post HTTP/1.1" 500 84855
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 212, in write
+    self.send_headers()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 270, in send_headers
+    self.send_preamble()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 191, in send_preamble
+    self._write('HTTP/%s %s\r\n' % (self.http_version,self.status))
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 391, in _write
+    self.stdout.write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 9] Bad file descriptor
+[31/May/2018 10:58:33] "GET /websocketdata/pull_post HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 9] Bad file descriptor
+Traceback (most recent call last):
+  File "/var/www/yqapi/websocketdata/views_socket.py", line 96, in PullPost
+    for each in pull_posts2:
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/queryset.py", line 97, in _iter_results
+    self._populate_cache()
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/queryset.py", line 116, in _populate_cache
+    self._result_cache.append(self.next())
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/base.py", line 1411, in next
+    _auto_dereference=self._auto_dereference, only_fields=self.only_fields)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/base/document.py", line 719, in _from_son
+    obj = cls(__auto_convert=False, _created=created, __only_fields=only_fields, **data)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/base/document.py", line 77, in __init__
+    raise FieldDoesNotExist(msg)
+FieldDoesNotExist: The fields "set(['provinces_id_list'])" do not exist on the document "Post"
+Internal Server Error: /websocketdata/pull_post
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/var/www/yqapi/websocketdata/views_socket.py", line 115, in PullPost
+    traceback.exc_print()
+AttributeError: 'module' object has no attribute 'exc_print'
+[31/May/2018 10:58:33] "GET /websocketdata/pull_post HTTP/1.1" 500 84855
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 212, in write
+    self.send_headers()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 270, in send_headers
+    self.send_preamble()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 191, in send_preamble
+    self._write('HTTP/%s %s\r\n' % (self.http_version,self.status))
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 391, in _write
+    self.stdout.write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 9] Bad file descriptor
+[31/May/2018 10:58:33] "GET /websocketdata/pull_post HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 9] Bad file descriptor
+Traceback (most recent call last):
+  File "/var/www/yqapi/websocketdata/views_socket.py", line 96, in PullPost
+    for each in pull_posts2:
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/queryset.py", line 97, in _iter_results
+    self._populate_cache()
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/queryset.py", line 116, in _populate_cache
+    self._result_cache.append(self.next())
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/base.py", line 1411, in next
+    _auto_dereference=self._auto_dereference, only_fields=self.only_fields)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/base/document.py", line 719, in _from_son
+    obj = cls(__auto_convert=False, _created=created, __only_fields=only_fields, **data)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/base/document.py", line 77, in __init__
+    raise FieldDoesNotExist(msg)
+FieldDoesNotExist: The fields "set(['provinces_id_list'])" do not exist on the document "Post"
+Internal Server Error: /websocketdata/pull_post
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/var/www/yqapi/websocketdata/views_socket.py", line 115, in PullPost
+    traceback.exc_print()
+AttributeError: 'module' object has no attribute 'exc_print'
+Traceback (most recent call last):
+  File "/var/www/yqapi/websocketdata/views_socket.py", line 96, in PullPost
+    for each in pull_posts2:
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/queryset.py", line 97, in _iter_results
+    self._populate_cache()
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/queryset.py", line 116, in _populate_cache
+    self._result_cache.append(self.next())
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/base.py", line 1411, in next
+    _auto_dereference=self._auto_dereference, only_fields=self.only_fields)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/base/document.py", line 719, in _from_son
+    obj = cls(__auto_convert=False, _created=created, __only_fields=only_fields, **data)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/base/document.py", line 77, in __init__
+    raise FieldDoesNotExist(msg)
+FieldDoesNotExist: The fields "set(['provinces_id_list'])" do not exist on the document "Post"
+Internal Server Error: /websocketdata/pull_post
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/var/www/yqapi/websocketdata/views_socket.py", line 115, in PullPost
+    traceback.exc_print()
+AttributeError: 'module' object has no attribute 'exc_print'
+[31/May/2018 10:58:34] "GET /websocketdata/pull_post HTTP/1.1" 500 84847
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 212, in write
+    self.send_headers()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 270, in send_headers
+    self.send_preamble()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 191, in send_preamble
+    self._write('HTTP/%s %s\r\n' % (self.http_version,self.status))
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 391, in _write
+    self.stdout.write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 9] Bad file descriptor
+[31/May/2018 10:58:34] "GET /websocketdata/pull_post HTTP/1.1" 500 59
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+  File "/var/www/yqapi/websocketdata/views_socket.py", line 96, in PullPost
+    for each in pull_posts2:
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/queryset.py", line 97, in _iter_results
+    self._populate_cache()
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/queryset.py", line 116, in _populate_cache
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self._result_cache.append(self.next())
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/base.py", line 1411, in next
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    _auto_dereference=self._auto_dereference, only_fields=self.only_fields)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/base/document.py", line 719, in _from_son
+    self.finish()
+    obj = cls(__auto_convert=False, _created=created, __only_fields=only_fields, **data)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/base/document.py", line 77, in __init__
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    raise FieldDoesNotExist(msg)
+FieldDoesNotExist: The fields "set(['provinces_id_list'])" do not exist on the document "Post"
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 9] Bad file descriptor
+Internal Server Error: /websocketdata/pull_post
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/var/www/yqapi/websocketdata/views_socket.py", line 115, in PullPost
+    traceback.exc_print()
+AttributeError: 'module' object has no attribute 'exc_print'
+[31/May/2018 10:58:34] "GET /websocketdata/pull_post HTTP/1.1" 500 84850
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 212, in write
+    self.send_headers()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 270, in send_headers
+    self.send_preamble()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 191, in send_preamble
+    self._write('HTTP/%s %s\r\n' % (self.http_version,self.status))
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 391, in _write
+    self.stdout.write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 9] Bad file descriptor
+[31/May/2018 10:58:34] "GET /websocketdata/pull_post HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 9] Bad file descriptor
+[31/May/2018 10:58:35] "GET /websocketdata/pull_post HTTP/1.1" 500 84850
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 212, in write
+    self.send_headers()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 270, in send_headers
+    self.send_preamble()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 191, in send_preamble
+    self._write('HTTP/%s %s\r\n' % (self.http_version,self.status))
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 391, in _write
+    self.stdout.write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 9] Bad file descriptor
+[31/May/2018 10:58:35] "GET /websocketdata/pull_post HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 9] Bad file descriptor
+Traceback (most recent call last):
+  File "/var/www/yqapi/websocketdata/views_socket.py", line 96, in PullPost
+    for each in pull_posts2:
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/queryset.py", line 97, in _iter_results
+    self._populate_cache()
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/queryset.py", line 116, in _populate_cache
+    self._result_cache.append(self.next())
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/base.py", line 1411, in next
+    _auto_dereference=self._auto_dereference, only_fields=self.only_fields)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/base/document.py", line 719, in _from_son
+    obj = cls(__auto_convert=False, _created=created, __only_fields=only_fields, **data)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/base/document.py", line 77, in __init__
+    raise FieldDoesNotExist(msg)
+FieldDoesNotExist: The fields "set(['provinces_id_list'])" do not exist on the document "Post"
+Internal Server Error: /websocketdata/pull_post
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/var/www/yqapi/websocketdata/views_socket.py", line 115, in PullPost
+    traceback.exc_print()
+AttributeError: 'module' object has no attribute 'exc_print'
+Traceback (most recent call last):
+  File "/var/www/yqapi/websocketdata/views_socket.py", line 96, in PullPost
+    for each in pull_posts2:
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/queryset.py", line 97, in _iter_results
+    self._populate_cache()
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/queryset.py", line 116, in _populate_cache
+    self._result_cache.append(self.next())
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/base.py", line 1411, in next
+    _auto_dereference=self._auto_dereference, only_fields=self.only_fields)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/base/document.py", line 719, in _from_son
+    obj = cls(__auto_convert=False, _created=created, __only_fields=only_fields, **data)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/base/document.py", line 77, in __init__
+    raise FieldDoesNotExist(msg)
+FieldDoesNotExist: The fields "set(['provinces_id_list'])" do not exist on the document "Post"
+Internal Server Error: /websocketdata/pull_post
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/var/www/yqapi/websocketdata/views_socket.py", line 115, in PullPost
+    traceback.exc_print()
+AttributeError: 'module' object has no attribute 'exc_print'
+Traceback (most recent call last):
+  File "/var/www/yqapi/websocketdata/views_socket.py", line 96, in PullPost
+    for each in pull_posts2:
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/queryset.py", line 97, in _iter_results
+    self._populate_cache()
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/queryset.py", line 116, in _populate_cache
+    self._result_cache.append(self.next())
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/base.py", line 1411, in next
+    _auto_dereference=self._auto_dereference, only_fields=self.only_fields)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/base/document.py", line 719, in _from_son
+    obj = cls(__auto_convert=False, _created=created, __only_fields=only_fields, **data)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/base/document.py", line 77, in __init__
+    raise FieldDoesNotExist(msg)
+FieldDoesNotExist: The fields "set(['provinces_id_list'])" do not exist on the document "Post"
+Internal Server Error: /websocketdata/pull_post
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/var/www/yqapi/websocketdata/views_socket.py", line 115, in PullPost
+    traceback.exc_print()
+AttributeError: 'module' object has no attribute 'exc_print'
+[31/May/2018 10:58:35] "GET /websocketdata/pull_post HTTP/1.1" 500 84850
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 212, in write
+    self.send_headers()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 270, in send_headers
+    self.send_preamble()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 191, in send_preamble
+    self._write('HTTP/%s %s\r\n' % (self.http_version,self.status))
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 391, in _write
+    self.stdout.write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 9] Bad file descriptor
+[31/May/2018 10:58:35] "GET /websocketdata/pull_post HTTP/1.1" 500 59
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/var/www/yqapi/websocketdata/views_socket.py", line 96, in PullPost
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    for each in pull_posts2:
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/queryset.py", line 97, in _iter_results
+    self._populate_cache()
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/queryset.py", line 116, in _populate_cache
+    self._result_cache.append(self.next())
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/base.py", line 1411, in next
+    _auto_dereference=self._auto_dereference, only_fields=self.only_fields)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/base/document.py", line 719, in _from_son
+    obj = cls(__auto_convert=False, _created=created, __only_fields=only_fields, **data)
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 9] Bad file descriptor
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/base/document.py", line 77, in __init__
+    raise FieldDoesNotExist(msg)
+FieldDoesNotExist: The fields "set(['provinces_id_list'])" do not exist on the document "Post"
+Internal Server Error: /websocketdata/pull_post
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/var/www/yqapi/websocketdata/views_socket.py", line 115, in PullPost
+    traceback.exc_print()
+AttributeError: 'module' object has no attribute 'exc_print'
+Traceback (most recent call last):
+  File "/var/www/yqapi/websocketdata/views_socket.py", line 96, in PullPost
+Traceback (most recent call last):
+    for each in pull_posts2:
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/queryset.py", line 97, in _iter_results
+  File "/var/www/yqapi/websocketdata/views_socket.py", line 96, in PullPost
+    self._populate_cache()
+    for each in pull_posts2:
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/queryset.py", line 97, in _iter_results
+    self._populate_cache()
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/queryset.py", line 116, in _populate_cache
+    self._result_cache.append(self.next())
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/base.py", line 1411, in next
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/queryset.py", line 116, in _populate_cache
+    _auto_dereference=self._auto_dereference, only_fields=self.only_fields)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/base/document.py", line 719, in _from_son
+    self._result_cache.append(self.next())
+    obj = cls(__auto_convert=False, _created=created, __only_fields=only_fields, **data)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/base/document.py", line 77, in __init__
+    raise FieldDoesNotExist(msg)
+FieldDoesNotExist: The fields "set(['provinces_id_list'])" do not exist on the document "Post"
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/base.py", line 1411, in next
+Internal Server Error: /websocketdata/pull_post
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/var/www/yqapi/websocketdata/views_socket.py", line 115, in PullPost
+    traceback.exc_print()
+AttributeError: 'module' object has no attribute 'exc_print'
+    _auto_dereference=self._auto_dereference, only_fields=self.only_fields)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/base/document.py", line 719, in _from_son
+    obj = cls(__auto_convert=False, _created=created, __only_fields=only_fields, **data)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/base/document.py", line 77, in __init__
+    raise FieldDoesNotExist(msg)
+FieldDoesNotExist: The fields "set(['provinces_id_list'])" do not exist on the document "Post"
+Internal Server Error: /websocketdata/pull_post
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/var/www/yqapi/websocketdata/views_socket.py", line 115, in PullPost
+    traceback.exc_print()
+AttributeError: 'module' object has no attribute 'exc_print'
+Traceback (most recent call last):
+  File "/var/www/yqapi/websocketdata/views_socket.py", line 96, in PullPost
+    for each in pull_posts2:
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/queryset.py", line 97, in _iter_results
+    self._populate_cache()
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/queryset.py", line 116, in _populate_cache
+    self._result_cache.append(self.next())
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/base.py", line 1411, in next
+    _auto_dereference=self._auto_dereference, only_fields=self.only_fields)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/base/document.py", line 719, in _from_son
+    obj = cls(__auto_convert=False, _created=created, __only_fields=only_fields, **data)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/base/document.py", line 77, in __init__
+    raise FieldDoesNotExist(msg)
+FieldDoesNotExist: The fields "set(['provinces_id_list'])" do not exist on the document "Post"
+[31/May/2018 10:58:36] "GET /websocketdata/pull_post HTTP/1.1" 500 84855
+Internal Server Error: /websocketdata/pull_post
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/var/www/yqapi/websocketdata/views_socket.py", line 115, in PullPost
+    traceback.exc_print()
+AttributeError: 'module' object has no attribute 'exc_print'
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 212, in write
+    self.send_headers()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 270, in send_headers
+    self.send_preamble()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 191, in send_preamble
+    self._write('HTTP/%s %s\r\n' % (self.http_version,self.status))
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 391, in _write
+    self.stdout.write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+[31/May/2018 10:58:36] "GET /websocketdata/pull_post HTTP/1.1" 500 84855
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 9] Bad file descriptor
+[31/May/2018 10:58:36] "GET /websocketdata/pull_post HTTP/1.1" 500 59
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 212, in write
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    self.send_headers()
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 270, in send_headers
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 9] Bad file descriptor
+    self.send_preamble()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 191, in send_preamble
+    self._write('HTTP/%s %s\r\n' % (self.http_version,self.status))
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 391, in _write
+    self.stdout.write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 9] Bad file descriptor
+[31/May/2018 10:58:36] "GET /websocketdata/pull_post HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 9] Bad file descriptor
+[31/May/2018 10:58:36] "GET /websocketdata/pull_post HTTP/1.1" 500 84855
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 212, in write
+    self.send_headers()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 270, in send_headers
+    self.send_preamble()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 191, in send_preamble
+    self._write('HTTP/%s %s\r\n' % (self.http_version,self.status))
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 391, in _write
+    self.stdout.write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 9] Bad file descriptor
+[31/May/2018 10:58:36] "GET /websocketdata/pull_post HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 9] Bad file descriptor
+Traceback (most recent call last):
+  File "/var/www/yqapi/websocketdata/views_socket.py", line 96, in PullPost
+    for each in pull_posts2:
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/queryset.py", line 97, in _iter_results
+    self._populate_cache()
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/queryset.py", line 116, in _populate_cache
+    self._result_cache.append(self.next())
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/base.py", line 1411, in next
+    _auto_dereference=self._auto_dereference, only_fields=self.only_fields)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/base/document.py", line 719, in _from_son
+    obj = cls(__auto_convert=False, _created=created, __only_fields=only_fields, **data)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/base/document.py", line 77, in __init__
+    raise FieldDoesNotExist(msg)
+FieldDoesNotExist: The fields "set(['provinces_id_list'])" do not exist on the document "Post"
+Internal Server Error: /websocketdata/pull_post
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/var/www/yqapi/websocketdata/views_socket.py", line 115, in PullPost
+    traceback.exc_print()
+AttributeError: 'module' object has no attribute 'exc_print'
+[31/May/2018 10:58:37] "GET /websocketdata/pull_post HTTP/1.1" 500 84847
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 212, in write
+    self.send_headers()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 270, in send_headers
+    self.send_preamble()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 191, in send_preamble
+[31/May/2018 10:58:37] "GET /websocketdata/pull_post HTTP/1.1" 500 84850
+Traceback (most recent call last):
+    self._write('HTTP/%s %s\r\n' % (self.http_version,self.status))
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 391, in _write
+    self.stdout.write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self.finish_response()
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+error: [Errno 9] Bad file descriptor
+[31/May/2018 10:58:37] "GET /websocketdata/pull_post HTTP/1.1" 500 59
+  File "/var/www/yqapi/websocketdata/views_socket.py", line 96, in PullPost
+    for each in pull_posts2:
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/queryset.py", line 97, in _iter_results
+    self._populate_cache()
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/queryset.py", line 116, in _populate_cache
+    self._result_cache.append(self.next())
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/base.py", line 1411, in next
+    _auto_dereference=self._auto_dereference, only_fields=self.only_fields)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/base/document.py", line 719, in _from_son
+    obj = cls(__auto_convert=False, _created=created, __only_fields=only_fields, **data)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/base/document.py", line 77, in __init__
+    raise FieldDoesNotExist(msg)
+FieldDoesNotExist: The fields "set(['provinces_id_list'])" do not exist on the document "Post"
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+    self.write(data)
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 212, in write
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.send_headers()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 270, in send_headers
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 9] Bad file descriptor
+Internal Server Error: /websocketdata/pull_post
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/var/www/yqapi/websocketdata/views_socket.py", line 115, in PullPost
+    traceback.exc_print()
+AttributeError: 'module' object has no attribute 'exc_print'
+    self.send_preamble()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 191, in send_preamble
+Traceback (most recent call last):
+    self._write('HTTP/%s %s\r\n' % (self.http_version,self.status))
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 391, in _write
+    self.stdout.write(data)
+  File "/var/www/yqapi/websocketdata/views_socket.py", line 96, in PullPost
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    for each in pull_posts2:
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/queryset.py", line 97, in _iter_results
+    self._populate_cache()
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/queryset.py", line 116, in _populate_cache
+    self._result_cache.append(self.next())
+    self.flush()
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/base.py", line 1411, in next
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    _auto_dereference=self._auto_dereference, only_fields=self.only_fields)
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 9] Bad file descriptor
+[31/May/2018 10:58:37] "GET /websocketdata/pull_post HTTP/1.1" 500 59
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/base/document.py", line 719, in _from_son
+    obj = cls(__auto_convert=False, _created=created, __only_fields=only_fields, **data)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/base/document.py", line 77, in __init__
+    raise FieldDoesNotExist(msg)
+FieldDoesNotExist: The fields "set(['provinces_id_list'])" do not exist on the document "Post"
+Internal Server Error: /websocketdata/pull_post
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/var/www/yqapi/websocketdata/views_socket.py", line 115, in PullPost
+    traceback.exc_print()
+AttributeError: 'module' object has no attribute 'exc_print'
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 9] Bad file descriptor
+[31/May/2018 10:58:37] "GET /websocketdata/pull_post HTTP/1.1" 500 84850
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 212, in write
+    self.send_headers()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 270, in send_headers
+    self.send_preamble()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 191, in send_preamble
+    self._write('HTTP/%s %s\r\n' % (self.http_version,self.status))
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 391, in _write
+    self.stdout.write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 9] Bad file descriptor
+[31/May/2018 10:58:37] "GET /websocketdata/pull_post HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 9] Bad file descriptor
+Traceback (most recent call last):
+  File "/var/www/yqapi/websocketdata/views_socket.py", line 96, in PullPost
+    for each in pull_posts2:
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/queryset.py", line 97, in _iter_results
+    self._populate_cache()
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/queryset.py", line 116, in _populate_cache
+    self._result_cache.append(self.next())
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/base.py", line 1411, in next
+    _auto_dereference=self._auto_dereference, only_fields=self.only_fields)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/base/document.py", line 719, in _from_son
+    obj = cls(__auto_convert=False, _created=created, __only_fields=only_fields, **data)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/base/document.py", line 77, in __init__
+    raise FieldDoesNotExist(msg)
+FieldDoesNotExist: The fields "set(['provinces_id_list'])" do not exist on the document "Post"
+Internal Server Error: /websocketdata/pull_post
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/var/www/yqapi/websocketdata/views_socket.py", line 115, in PullPost
+    traceback.exc_print()
+AttributeError: 'module' object has no attribute 'exc_print'
+[31/May/2018 10:58:37] "GET /websocketdata/pull_post HTTP/1.1" 500 84847
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 212, in write
+    self.send_headers()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 270, in send_headers
+    self.send_preamble()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 191, in send_preamble
+    self._write('HTTP/%s %s\r\n' % (self.http_version,self.status))
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 391, in _write
+    self.stdout.write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 9] Bad file descriptor
+[31/May/2018 10:58:37] "GET /websocketdata/pull_post HTTP/1.1" 500 59
+[31/May/2018 10:58:37] "GET /websocketdata/pull_post HTTP/1.1" 500 84850
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 212, in write
+    self.send_headers()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 270, in send_headers
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.send_preamble()
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 191, in send_preamble
+    self._write('HTTP/%s %s\r\n' % (self.http_version,self.status))
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 391, in _write
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self.stdout.write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 9] Bad file descriptor
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 9] Bad file descriptor
+[31/May/2018 10:58:37] "GET /websocketdata/pull_post HTTP/1.1" 500 59
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 31, 2018 - 09:31:54
+Django version 1.11.6, using settings 'yqapi.settings'
+Starting development server at http://0.0.0.0:8200/
+Quit the server with CONTROL-C.
+----------------------------------------
+Exception happened during processing of request from ('222.91.160.137', 48402)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('222.91.160.143', 40036)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('222.91.160.143', 40336)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('222.91.160.137', 5027)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('222.91.160.137', 3338)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('222.91.160.137', 3285)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('222.91.160.151', 4754)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('222.91.160.137', 29664)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('222.91.160.137', 46396)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('222.91.160.137', 14271)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('222.91.160.137', 6021)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('222.91.160.143', 8050)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('222.91.160.143', 52917)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('222.91.160.137', 16937)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('222.91.160.151', 22577)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('222.91.160.151', 8016)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('222.91.160.151', 35843)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('222.91.160.137', 39935)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('222.91.160.143', 20932)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('222.91.160.143', 21205)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('222.91.160.137', 56391)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('222.91.160.151', 65220)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('222.91.160.151', 3064)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('222.91.160.137', 49372)
+----------------------------------------
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+[31/May/2018 10:58:37] "GET /websocketdata/pull_post HTTP/1.1" 500 84855
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 212, in write
+    self.wfile.close()
+    self.send_headers()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 270, in send_headers
+    self.send_preamble()
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 9] Bad file descriptor
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 191, in send_preamble
+    self._write('HTTP/%s %s\r\n' % (self.http_version,self.status))
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 391, in _write
+    self.stdout.write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 9] Bad file descriptor
+[31/May/2018 10:58:37] "GET /websocketdata/pull_post HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 9] Bad file descriptor
+[31/May/2018 10:58:38] "GET /websocketdata/pull_post HTTP/1.1" 500 84847
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 212, in write
+  File "/var/www/yqapi/websocketdata/views_socket.py", line 96, in PullPost
+    self.send_headers()
+    for each in pull_posts2:
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/queryset.py", line 97, in _iter_results
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 270, in send_headers
+    self._populate_cache()
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/queryset.py", line 116, in _populate_cache
+    self._result_cache.append(self.next())
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/base.py", line 1411, in next
+    _auto_dereference=self._auto_dereference, only_fields=self.only_fields)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/base/document.py", line 719, in _from_son
+    obj = cls(__auto_convert=False, _created=created, __only_fields=only_fields, **data)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/base/document.py", line 77, in __init__
+    raise FieldDoesNotExist(msg)
+FieldDoesNotExist: The fields "set(['provinces_id_list'])" do not exist on the document "Post"
+    self.send_preamble()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 191, in send_preamble
+    self._write('HTTP/%s %s\r\n' % (self.http_version,self.status))
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 391, in _write
+    self.stdout.write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+Internal Server Error: /websocketdata/pull_post
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/var/www/yqapi/websocketdata/views_socket.py", line 115, in PullPost
+    traceback.exc_print()
+AttributeError: 'module' object has no attribute 'exc_print'
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 9] Bad file descriptor
+[31/May/2018 10:58:38] "GET /websocketdata/pull_post HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 9] Bad file descriptor
+Traceback (most recent call last):
+  File "/var/www/yqapi/websocketdata/views_socket.py", line 96, in PullPost
+    for each in pull_posts2:
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/queryset.py", line 97, in _iter_results
+    self._populate_cache()
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/queryset.py", line 116, in _populate_cache
+    self._result_cache.append(self.next())
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/base.py", line 1411, in next
+    _auto_dereference=self._auto_dereference, only_fields=self.only_fields)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/base/document.py", line 719, in _from_son
+    obj = cls(__auto_convert=False, _created=created, __only_fields=only_fields, **data)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/base/document.py", line 77, in __init__
+    raise FieldDoesNotExist(msg)
+FieldDoesNotExist: The fields "set(['provinces_id_list'])" do not exist on the document "Post"
+Internal Server Error: /websocketdata/pull_post
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/var/www/yqapi/websocketdata/views_socket.py", line 115, in PullPost
+    traceback.exc_print()
+AttributeError: 'module' object has no attribute 'exc_print'
+[31/May/2018 10:58:38] "GET /websocketdata/pull_post HTTP/1.1" 500 84847
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 212, in write
+    self.send_headers()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 270, in send_headers
+    self.send_preamble()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 191, in send_preamble
+    self._write('HTTP/%s %s\r\n' % (self.http_version,self.status))
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 391, in _write
+    self.stdout.write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 9] Bad file descriptor
+[31/May/2018 10:58:38] "GET /websocketdata/pull_post HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 9] Bad file descriptor
+[31/May/2018 10:58:38] "GET /websocketdata/pull_post HTTP/1.1" 500 84847
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 212, in write
+    self.send_headers()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 270, in send_headers
+    self.send_preamble()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 191, in send_preamble
+    self._write('HTTP/%s %s\r\n' % (self.http_version,self.status))
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 391, in _write
+    self.stdout.write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 9] Bad file descriptor
+[31/May/2018 10:58:38] "GET /websocketdata/pull_post HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 9] Bad file descriptor
+Traceback (most recent call last):
+  File "/var/www/yqapi/websocketdata/views_socket.py", line 96, in PullPost
+    for each in pull_posts2:
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/queryset.py", line 97, in _iter_results
+    self._populate_cache()
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/queryset.py", line 116, in _populate_cache
+    self._result_cache.append(self.next())
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/base.py", line 1411, in next
+    _auto_dereference=self._auto_dereference, only_fields=self.only_fields)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/base/document.py", line 719, in _from_son
+    obj = cls(__auto_convert=False, _created=created, __only_fields=only_fields, **data)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/base/document.py", line 77, in __init__
+    raise FieldDoesNotExist(msg)
+FieldDoesNotExist: The fields "set(['provinces_id_list'])" do not exist on the document "Post"
+Internal Server Error: /websocketdata/pull_post
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/var/www/yqapi/websocketdata/views_socket.py", line 115, in PullPost
+    traceback.exc_print()
+AttributeError: 'module' object has no attribute 'exc_print'
+[31/May/2018 10:59:12] "GET /websocketdata/pull_post HTTP/1.1" 500 84850
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 212, in write
+    self.send_headers()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 270, in send_headers
+    self.send_preamble()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 191, in send_preamble
+    self._write('HTTP/%s %s\r\n' % (self.http_version,self.status))
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 391, in _write
+    self.stdout.write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 9] Bad file descriptor
+[31/May/2018 10:59:12] "GET /websocketdata/pull_post HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 9] Bad file descriptor
+Traceback (most recent call last):
+  File "/var/www/yqapi/websocketdata/views_socket.py", line 96, in PullPost
+    for each in pull_posts2:
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/queryset.py", line 97, in _iter_results
+    self._populate_cache()
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/queryset.py", line 116, in _populate_cache
+    self._result_cache.append(self.next())
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/base.py", line 1411, in next
+    _auto_dereference=self._auto_dereference, only_fields=self.only_fields)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/base/document.py", line 719, in _from_son
+    obj = cls(__auto_convert=False, _created=created, __only_fields=only_fields, **data)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/base/document.py", line 77, in __init__
+    raise FieldDoesNotExist(msg)
+FieldDoesNotExist: The fields "set(['provinces_id_list'])" do not exist on the document "Post"
+Internal Server Error: /websocketdata/pull_post
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/var/www/yqapi/websocketdata/views_socket.py", line 115, in PullPost
+    traceback.exc_print()
+AttributeError: 'module' object has no attribute 'exc_print'
+[31/May/2018 10:59:13] "GET /websocketdata/pull_post HTTP/1.1" 500 84847
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 212, in write
+    self.send_headers()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 270, in send_headers
+    self.send_preamble()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 191, in send_preamble
+    self._write('HTTP/%s %s\r\n' % (self.http_version,self.status))
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 391, in _write
+    self.stdout.write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 9] Bad file descriptor
+[31/May/2018 10:59:13] "GET /websocketdata/pull_post HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 9] Bad file descriptor
+Traceback (most recent call last):
+  File "/var/www/yqapi/websocketdata/views_socket.py", line 96, in PullPost
+    for each in pull_posts2:
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/queryset.py", line 97, in _iter_results
+    self._populate_cache()
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/queryset.py", line 116, in _populate_cache
+    self._result_cache.append(self.next())
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/base.py", line 1411, in next
+    _auto_dereference=self._auto_dereference, only_fields=self.only_fields)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/base/document.py", line 719, in _from_son
+    obj = cls(__auto_convert=False, _created=created, __only_fields=only_fields, **data)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/base/document.py", line 77, in __init__
+    raise FieldDoesNotExist(msg)
+FieldDoesNotExist: The fields "set(['provinces_id_list'])" do not exist on the document "Post"
+Internal Server Error: /websocketdata/pull_post
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/var/www/yqapi/websocketdata/views_socket.py", line 115, in PullPost
+    traceback.exc_print()
+AttributeError: 'module' object has no attribute 'exc_print'
+[31/May/2018 11:00:27] "GET /websocketdata/pull_post HTTP/1.1" 500 84847
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 212, in write
+    self.send_headers()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 270, in send_headers
+    self.send_preamble()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 191, in send_preamble
+    self._write('HTTP/%s %s\r\n' % (self.http_version,self.status))
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 391, in _write
+    self.stdout.write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 9] Bad file descriptor
+[31/May/2018 11:00:27] "GET /websocketdata/pull_post HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 9] Bad file descriptor
+Traceback (most recent call last):
+  File "/var/www/yqapi/websocketdata/views_socket.py", line 96, in PullPost
+    for each in pull_posts2:
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/queryset.py", line 97, in _iter_results
+    self._populate_cache()
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/queryset.py", line 116, in _populate_cache
+    self._result_cache.append(self.next())
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/queryset/base.py", line 1411, in next
+    _auto_dereference=self._auto_dereference, only_fields=self.only_fields)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/base/document.py", line 719, in _from_son
+    obj = cls(__auto_convert=False, _created=created, __only_fields=only_fields, **data)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/base/document.py", line 77, in __init__
+    raise FieldDoesNotExist(msg)
+FieldDoesNotExist: The fields "set(['provinces_id_list'])" do not exist on the document "Post"
+Internal Server Error: /websocketdata/pull_post
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/dwebsocket/decorators.py", line 16, in new_func
+    response = func(request, *args, **kwargs)
+  File "/var/www/yqapi/websocketdata/views_socket.py", line 115, in PullPost
+    traceback.exc_print()
+AttributeError: 'module' object has no attribute 'exc_print'
+[31/May/2018 11:00:28] "GET /websocketdata/pull_post HTTP/1.1" 500 84855
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 212, in write
+    self.send_headers()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 270, in send_headers
+    self.send_preamble()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 191, in send_preamble
+    self._write('HTTP/%s %s\r\n' % (self.http_version,self.status))
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 391, in _write
+    self.stdout.write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 9] Bad file descriptor
+[31/May/2018 11:00:28] "GET /websocketdata/pull_post HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 9] Bad file descriptor
+----------------------------------------
+Exception happened during processing of request from ('222.91.160.151', 16851)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('222.91.160.137', 30102)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('222.91.160.137', 38240)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('222.91.160.137', 17096)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('222.91.160.137', 26940)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('222.91.160.151', 13628)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('222.91.160.137', 31479)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('222.91.160.137', 58055)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('222.91.160.143', 43768)
+----------------------------------------
+Traceback (most recent call last):
+  File "manage.py", line 10, in <module>
+    execute_from_command_line(sys.argv)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/__init__.py", line 364, in execute_from_command_line
+    utility.execute()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/__init__.py", line 356, in execute
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 283, in run_from_argv
+    self.execute(*args, **cmd_options)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 62, in execute
+    super(Command, self).execute(*args, **options)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 330, in execute
+    output = self.handle(*args, **options)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 101, in handle
+    self.run(**options)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 110, in run
+    autoreload.main(self.inner_run, None, options)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 341, in main
+    reloader(wrapped_main_func, args, kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 307, in python_reloader
+    reloader_thread()
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 277, in reloader_thread
+    change = fn()
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 207, in code_changed
+    stat = os.stat(filename)
+OSError: [Errno 2] No such file or directory: '/var/www/yqapi/yqdata/models.py'

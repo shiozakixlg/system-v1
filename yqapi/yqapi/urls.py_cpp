@@ -1,0 +1,32 @@
+"""yqapi URL Configuration
+
+The `urlpatterns` list routes URLs to views. For more information please see:
+    https://docs.djangoproject.com/en/1.8/topics/http/urls/
+Examples:
+Function views
+    1. Add an import:  from my_app import views
+    2. Add a URL to urlpatterns:  url(r'^$', views.home, name='home')
+Class-based views
+    1. Add an import:  from other_app.views import Home
+    2. Add a URL to urlpatterns:  url(r'^$', Home.as_view(), name='home')
+Including another URLconf
+    1. Add an import:  from blog import urls as blog_urls
+    2. Add a URL to urlpatterns:  url(r'^blog/', include(blog_urls))
+"""
+from django.conf.urls import include, url
+from yqdata import views, views_topics, views_realtime_monitor, views_settings
+
+urlpatterns = [
+    #url(r'^yqdata/site/$', views.post_by_siteId),
+    url(r'^yqdata/dashboard/$', views.dashboard_sourceData),
+    url(r'^yqdata/topic_statistics/$', views_topics.Topic_statistics.as_view()),
+    url(r'^yqdata/topic_analysis/$', views_topics.Topic_analysis.as_view()),
+    url(r'^yqdata/monitor/all/$', views_realtime_monitor.RealtimeMonitorAll.as_view()),
+    url(r'^yqdata/monitor/flush/$', views_realtime_monitor.RealtimeMonitorFlush.as_view()),
+    url(r'^yqdata/monitor/load/$', views_realtime_monitor.RealtimeMonitorLoad.as_view()),
+    url(r'^yqdata/settopic/$', views_settings.SetTopic.as_view()),
+    url(r'^yqdata/addtopic/$', views_settings.addTopic.as_view()),
+    url(r'^yqdata/dataSourceTree/$', views_settings.dataSourceTree.as_view()),
+    url(r'^yqdata/modifytopic/$',views_settings.modifyTopic.as_view()), 
+    url(r'^yqdata/deletetopic/$',views_settings.DeleteTopic.as_view()), 
+]
